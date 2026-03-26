@@ -2,37 +2,6 @@
 
 # Classificação de Conexões em Redes Ópticas Elásticas com Machine Learning
 
----
-
-## Sobre o Projeto
-
-Este repositório apresenta a implementação de modelos de Machine Learning aplicados à classificação da viabilidade de conexões em Redes Ópticas Elásticas (EONs). O objetivo é utilizar técnicas de aprendizado supervisionado para auxiliar na decisão de aceitação ou bloqueio de conexões, considerando limitações da rede e parâmetros da camada física.
-
-A base de dados utilizada foi gerada por meio de simulação computacional utilizando o simulador SNetS, permitindo a análise de cenários realistas de operação de redes ópticas.
-
-Os modelos são treinados a partir de métricas relevantes como:
-- Optical Signal-to-Noise Ratio (OSNR)
-- Crosstalk (interferência entre núcleos)
-- Formato de modulação
-- Alocação de slots espectrais
-
-O principal objetivo deste repositório é garantir a reprodutibilidade dos experimentos e servir como base para estudos futuros na área.
-
----
-
-## Algoritmos Avaliados
-
-Os seguintes modelos de classificação foram implementados e avaliados:
-
-- Regressão Logística
-- Árvore de Decisão
-
----
-
-## Estrutura do Repositório
-
-# Classificação de Conexões em Redes Ópticas Elásticas com Machine Learning
-
 Python • Jupyter Notebook • Scikit-Learn • Pandas • Google Colab
 
 ---
